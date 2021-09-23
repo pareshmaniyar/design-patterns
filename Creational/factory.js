@@ -1,7 +1,7 @@
 // Java impl is different where factory creates different creators of object
 
 function characterCreation(name, contentName, quote) {
-    let obj = {};
+    let obj = new Object();
     obj.name = name;
     obj.contentName = contentName;
     obj.quote = quote;
