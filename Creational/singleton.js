@@ -1,3 +1,5 @@
+// only one instance
+
 function RegularObjectCreation() {
     this.obj = new AnySelfDefinedObject;
 }

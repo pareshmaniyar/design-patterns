@@ -1,3 +1,4 @@
+// Create similar objects
 // Java impl is different where factory creates different creators of object
 
 function characterCreation(name, contentName, quote) {
