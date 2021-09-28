@@ -11,6 +11,8 @@ getShot - prevMode
 hitTarget - +1
 missTarget - -1
 
+Looks similar to composite
+
 */
 
 class Character {
@@ -39,10 +41,10 @@ class Character {
 
 interface Mode {
     character: Character;
-    getsHealth(): any;
-    getsShot(): any;
-    hitTarget(): any;
-    missTarget(): any;
+    getsHealth(): void;
+    getsShot(): void;
+    hitTarget(): void;
+    missTarget(): void;
 }
 
 class Normal implements Mode {
