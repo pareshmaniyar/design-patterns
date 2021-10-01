@@ -1,6 +1,7 @@
 /*
 - brige implementation and abstraction
 - make an object with different params
+- it feels like decorator
 
 Example:
 Vehicle
