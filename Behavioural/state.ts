@@ -12,6 +12,7 @@ hitTarget - +1
 missTarget - -1
 
 Looks similar to composite
+Character looks similar to mediator but the states change rather than Character
 
 */
 

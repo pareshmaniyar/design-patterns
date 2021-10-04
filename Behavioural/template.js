@@ -1,3 +1,4 @@
+// I think below should be abstract, maybe in typescript
 class Day {
     wakeUp() {
         console.log('Wake up, brush, bath, breakfast');
