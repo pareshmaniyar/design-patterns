@@ -44,3 +44,11 @@ There are 23 design patterns classified into 3 parts.
 Creational - How to create objects
 Structural - How objects are interact
 Behavioural - How to objects distribute work
+
+
+Behavioural
+1. Chain of responsibility, state, template - has a common method
+2. Memento, Command - undo/redo
+3. Iterator, Observer - iteration present
+4. Interpretor, Mediator - single responsibility
+5. Visitor, Stratergy - Others

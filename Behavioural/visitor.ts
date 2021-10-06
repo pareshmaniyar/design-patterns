@@ -1,7 +1,7 @@
 /*
 - Different Data, different processes
 - very can mix and match different data with different process
-
+- looks like bridge, decorator
 Example?
 Based on different games and seatLocation, we assign ticket value
 

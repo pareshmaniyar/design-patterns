@@ -1,7 +1,8 @@
 /*
-SQL, regex
-PrimaMadonna = generate new enlish language where a is *
-Not sure about if the below should be interface or abstract class
+- SQL, regex
+- PrimaMadonna = generate new enlish language where a is *
+- Not sure about if the below should be interface or abstract class
+- like facade pattern
 */
 interface LanguageConverter {
     getNativeLanguage();

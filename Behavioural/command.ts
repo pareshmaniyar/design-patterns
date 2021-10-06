@@ -1,4 +1,4 @@
-// Looks similar to decorator
+// Looks similar to memento, decorator
 // Good example is undo/redo
 
 interface Pokemon {
