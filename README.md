@@ -45,6 +45,12 @@ Creational - How to create objects
 Structural - How objects are interact
 Behavioural - How to objects distribute work
 
+Creational
+1. Singleton - only one instance like console.log
+2. Factory - 
+3. Abstract factory
+4. Builder
+5. Prototype
 
 Behavioural
 1. Chain of responsibility, state, template - has a common method

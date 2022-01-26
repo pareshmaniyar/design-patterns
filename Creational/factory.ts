@@ -1,3 +1,52 @@
+
+interface Animal {
+    sound(): void;
+}
+
+class Octopus implements Animal {
+    sound(): void {
+        console.log("No sound, I fart black cloud and run away");
+    }
+}
+
+class LyreBird implements Animal {
+    sound(): void {
+        console.log('I can mimic any sound accurately!');
+    }
+}
+
+abstract class AnimalCreator {
+    abstract createAnimal(): Animal;
+    makeSound() {
+        let animal = this.createAnimal();
+        animal.sound();
+    }
+}
+
+class OctopusCreator extends AnimalCreator {
+    createAnimal(): Animal {
+        return new Octopus();
+    }
+}
+
+class LyreBirdCreator extends AnimalCreator {
+    createAnimal(): Animal {
+        return new LyreBird();
+    }
+}
+
+class ClientCode {
+    private static animal: AnimalCreator;
+    static main(name: string): void {
+        if(name === "octopus") {
+            this.animal = new OctopusCreator();
+        } else if(name === "lyrebird") {
+            this.animal = new LyreBirdCreator();
+        }
+        this.animal.makeSound();
+    }
+}
+ClientCode.main('octopus');
 // Create similar objects
 // Java impl is different where factory creates different creators of object
 
