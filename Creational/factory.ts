@@ -1,4 +1,15 @@
 
+/*
+
+Reasons to use Factory
+1. Abstraction to client for creation of objects
+2. Move conditional logic to another class
+3. Minimal changes to add new classes
+
+*/
+
+// Below doesn't match the various youtube videos
+
 interface Animal {
     sound(): void;
 }

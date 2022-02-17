@@ -3,6 +3,11 @@
 - private constructor
 - returns the instance of object
 
+-------------
+Eager vs Lazy initialization
+Thread safe by synchroization
+Block only creation and not the read access
+
 */
 
 class Database {
